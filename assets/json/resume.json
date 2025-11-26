@@ -2,14 +2,14 @@
   "basics": {
     "name": "Yilin Liu",
     "label": "Undergraduate",
-    "image": "",
+    "image": "prof_pic.jpg",
     "email": "yliu859@hkust-gz.edu.cn",
     "phone": "+86 18928769825",
     "url": "https://alshedivat.github.io/al-folio/",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
-      "address":"",
-      "postalCode":"",
+      "address":" ",
+      "postalCode":" ",
       "city": "Guangzhou",
       "countryCode": "CN",
       "region": "Guangdong"
