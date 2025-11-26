@@ -22,17 +22,7 @@
       }
     ]
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
+  "work": [],
   "volunteer": [
     {
       "organization": "People's Climate March",
@@ -47,24 +37,38 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Hong Kong University of Science and Technology (Guangzhou)",
+      "location": "Guangzhou, China",
+      "url": "https://www.hkust-gz.edu.cn/",
+      "area": "Data Science and Big Data Technology",
+      "studyType": "Bachelor",
+      "startDate": "2023-09-01",
+      "endDate": "2027-06-01",
+      "score": "3.734/4.3",
+      "courses": ["Machine Learning", "Deep Learning", "Computer Architecture"]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Second Prize in Blue Bridge Cup National Software and IT Talent Competition",
+      "date": "2024-10",
+      "awarder": "",
+      "url": "https://drive.google.com/file/d/1yOPAgsuNxxyJsHqMxVb5ZxtnyTXtDJ5t/view?usp=sharing",
+      "summary": "Python Programming, Undergraduate Group A, Guangdong Province Division"
+    },
+    {
+      "title": "Gold Medal, Nomination Prize of Best New Basic Part",
+      "date": "2024-10",
+      "awarder": "iGEM Foundation",
+      "url": "https://www.hkust-gz.edu.cn/2024/10/28/making-history-undergraduate-team-from-hkustgz-wins-the-gold-award-at-igem/",
+      "summary": "Awarded Gold Medal for excellence in synthetic biology and coral protection, with a nomination for robust experimental design and sensor characterization."
+    },
+    {
+      "title": "Gold Medal, Nomination Prize of Best New Basic Part",
+      "date": "2024-10",
+      "awarder": "iGEM Foundation",
+      "url": "https://www.hkust-gz.edu.cn/2024/10/28/making-history-undergraduate-team-from-hkustgz-wins-the-gold-award-at-igem/",
+      "summary": "Awarded Gold Medal for excellence in synthetic biology and coral protection, with a nomination for robust experimental design and sensor characterization."
     }
   ],
   "certificates": [
