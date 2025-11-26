@@ -22,19 +22,6 @@
       }
     ]
   },
-  "work": [],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
   "education": [
     {
       "institution": "Hong Kong University of Science and Technology (Guangzhou)",
@@ -45,7 +32,18 @@
       "startDate": "2023-09-01",
       "endDate": "2027-06-01",
       "score": "3.734/4.3",
-      "courses": ["Machine Learning", "Deep Learning", "Computer Architecture"]
+      "courses": ["Machine Learning", "Deep Learning", "Linear Algebra", "Probability and Statistics"]
+    },
+    {
+      "institution": "University of California, Berkeley",
+      "location": "Berkeley, USA",
+      "url": "https://www.berkeley.edu/",
+      "area": "",
+      "studyType": "Berkeley Global Access Program",
+      "startDate": "2025-08-20",
+      "endDate": "2026-12-19",
+      "score": "N/A",
+      "courses": ["Computer Architecture", "Agentic AI", "Data Mining"]
     }
   ],
   "awards": [
@@ -71,8 +69,28 @@
       "summary": ""
     }
   ],
-  "certificates": [],
-  "publications": [],
+  "projects": [
+    {
+      "name": "Utilising Chromoprotein Expression to Counteract Coral Bleaching",
+      "summary":" To address coral bleaching problems, the project aims to design a genetic circuit conditionally expressing chromoprotein regulated by heat and light intensity, mimicsing the protective effects of turbid waters and thereby reduces the damages caused by high temperature and high light intensity to corals.  As one of the main wet lab contributor, I spearheaded the design of a key circuit part and conducted intensive wet lab experiments. I was responsible for the end-to-end experimental process, from designing protocols and executing complex assays to maintaining comprehensive documentation.",
+      "highlights": ["Sythetic Biology", "AI for Science"],
+      "startDate": "2024-2",
+      "endDate": "2024-10",
+      "url": "https://2024.igem.wiki/hkust-gz"
+    }
+  ],
+  "work": [],
+  "interests": [
+    {
+      "name": "Artificial Intelligence",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Large Language Model Inference/Training/Fine-Tuning Acceleration",
+        "Data-Centric Large-Language Models",
+        "Agentic AI"
+      ]
+    }
+  ],
   "skills": [
     {
       "name": "Programming Languages",
@@ -84,8 +102,34 @@
         "C",
         "Bash"
       ]
+    },
+    {
+      "name": "Research Techniques",
+      "level": "",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Experimental Design",
+        "Data Analysis and Visualization",
+        "Model Training and Evaluation"
+      ]
     }
   ],
+  "volunteer": [
+    {
+      "organization": "HKUST(GZ) Global Affairs Department",
+      "location": "",
+      "position": "Student Journalist",
+      "url": "",
+      "startDate": "2024-09",
+      "endDate": "Present",
+      "summary": "Participated in filming and producing various campus videos to promote university events and enhance the public image of HKUST(GZ).<a href='https://www.bilibili.com/video/BV1Hw3Lz4EyH/?share_source=copy_web&vd_source=96d477b909d9269f34c545c2846f0d0d'>An example video on our dormitory here!</a>",
+      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+    }
+  ],
+  
+  "certificates": [],
+  "publications": [],
+
   "languages": [
     {
       "language": "Chinese",
@@ -98,26 +142,6 @@
       "icon": ""
     }
   ],
-  "interests": [
-    {
-      "name": "Artificial Intelligence",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Large Language Model Inference/Training/Fine-Tuning Acceleration",
-        "Data-Centric Large-Language Models",
-        "Agentic AI"
-      ]
-    }
-  ],
-  "references": [],
-  "projects": [
-    {
-      "name": "Utilising Chromoprotein Expression to Counteract Coral Bleaching",
-      "summary":" To address coral bleaching problems, the project aims to design a genetic circuit conditionally expressing chromoprotein regulated by heat and light intensity, mimicsing the protective effects of turbid waters and thereby reduces the damages caused by high temperature and high light intensity to corals.  As one of the main wet lab contributor, I spearheaded the design of a key circuit part and conducted intensive wet lab experiments. I was responsible for the end-to-end experimental process, from designing protocols and executing complex assays to maintaining comprehensive documentation.",
-      "highlights": ["Sythetic Biology", "AI for Science"],
-      "startDate": "2024-2",
-      "endDate": "2024-10",
-      "url": "https://2024.igem.wiki/hkust-gz"
-    }
-  ]
+
+  "references": []
 }
