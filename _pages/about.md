@@ -42,3 +42,5 @@ My research journey began under the supervision of **[Prof. Jiaheng Wei](https:/
 Through these projects, I realized that the scalability of AI is fundamentally limited by compute efficiency. This sparked my pivot towards **ML Infrastructure** and **System Efficiency**. Moving forward, I will be conducting research on **LLM Acceleration** and **High-Performance Computing** under the guidance of my academic advisor, **[Prof. Zeyi Wen](https://zeyiwen.github.io)** at HKUST(GZ).
 
 I am now actively looking for **Research Internships (Summer 2026)** to optimize how we train, evaluate, and scale the next generation of AI models.
+
+For more details about my background and projects, please check out my [CV](/cv/).
