@@ -37,9 +37,7 @@ Hi, Yilin Liu (刘奕麟) there! You can also call me Caralyn.
 
 I'm a junior at <a href='https://www.hkust-gz.edu.cn/'>HKUST(GZ)</a> majoring in Data Science and Big Data Technology, currently a Visiting Student at UC Berkeley (Fall 2025).
 
-My research journey began under the supervision of **[Prof. Jiaheng Wei](https://sites.google.com/ucsc.edu/jiahengwei)**, where I built **Agentic Systems** and **Synthetic Data Pipelines** to tackle the scarcity of high-quality reasoning data.
-
-Through these projects, I realized that the scalability of AI is fundamentally limited by compute efficiency. This sparked my pivot towards **ML Infrastructure** and **System Efficiency**. Moving forward, I will be conducting research on **LLM Acceleration** and **High-Performance Computing** under the guidance of my academic advisor, **[Prof. Zeyi Wen](https://zeyiwen.github.io)** at HKUST(GZ).
+My research journey began under the supervision of **[Prof. Jiaheng Wei](https://sites.google.com/ucsc.edu/jiahengwei)**, where I joined a project on **Agentic Data Synthesis** to tackle the scarcity of high-quality reasoning data. While building this application, I confronted the fundamental bottlenecks of model inference and memory costs. This drove my interest down the stack—from high-level agents to the **underlying model architecture** and **system optimization**. Moving forward, I will be conducting research on **LLM Acceleration** and **High-Performance Computing** under the guidance of my academic advisor, **[Prof. Zeyi Wen](https://zeyiwen.github.io)** at HKUST(GZ).
 
 I am now actively looking for **Research Internships (Summer 2026)** to optimize how we train, evaluate, and scale the next generation of AI models.
 
