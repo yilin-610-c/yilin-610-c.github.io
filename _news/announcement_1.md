@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Steps into new semester at UC Berkeley. Go bears!
+Steps into a new semester at UC Berkeley. Go bears!
