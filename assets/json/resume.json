@@ -82,12 +82,27 @@
   "work": [],
   "interests": [
     {
-      "name": "Artificial Intelligence",
+      "name": "Efficient ML",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Large Language Model Inference/Training/Fine-Tuning Acceleration",
-        "Data-Centric Large-Language Models",
-        "Agentic AI"
+        "Training Acceleration",
+        "Inference Acceleration"
+      ]
+    },
+    {
+      "name": "Data-Centric AI",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Synthetic Data Generation",
+        "Data Selection & Pruning"
+      ]
+    },
+    {
+      "name": "Agentic Systems",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Multi-agent Collaboration",
+        "Tool Usage"
       ]
     }
   ],
