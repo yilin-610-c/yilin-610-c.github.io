@@ -384,16 +384,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+            },},{id: "news-started-my-visiting-semester-at-uc-berkeley-through-the-global-access-program-go-bears",
+          title: 'Started my visiting semester at UC Berkeley through the Global Access Program. Go...',
+          description: "",
+          section: "News",},{id: "news-our-paper-quot-agenticmath-quot-is-now-available-on-arxiv",
+          title: 'Our paper &amp;quot;AgenticMath&amp;quot; is now available on ArXiv',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-steps-into-a-new-semester-at-uc-berkeley-go-bears",
-          title: 'Steps into a new semester at UC Berkeley. Go bears!',
+            },},{id: "news-i-will-be-attending-neurips-2025-in-san-diego-if-you-are-interested-in-data-synthesis-or-ml-systems-let-s-chat",
+          title: 'I will be attending NeurIPS 2025 in San Diego! 🌴 If you are...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
