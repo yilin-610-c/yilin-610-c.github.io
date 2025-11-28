@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Hong Kong University of Science and Technology (Guangzhou)</a>.
+subtitle: <a href='https://www.hkust-gz.edu.cn/'>HKUST(GZ)</a>.
 
 profile:
   align: right
@@ -13,7 +13,7 @@ profile:
     <p></p>
     <p></p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -32,3 +32,13 @@ Write your biography here. Tell the world about yourself. Link to your favorite 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+
+Hi, Yilin Liu (刘奕麟) there! You can also call me Caralyn.
+
+I'm a junior at <a href='https://www.hkust-gz.edu.cn/'>HKUST(GZ)</a> majoring in Data Science and Big Data Technology, currently a Visiting Student at UC Berkeley (Fall 2025).
+
+My research journey began under the supervision of **[Prof. Jiaheng Wei](https://sites.google.com/ucsc.edu/jiahengwei)**, where I built **Agentic Systems** and **Synthetic Data Pipelines** to tackle the scarcity of high-quality reasoning data.
+
+Through these projects, I realized that the scalability of AI is fundamentally limited by compute efficiency. This sparked my pivot towards **ML Infrastructure** and **System Efficiency**. Moving forward, I will be conducting research on **LLM Acceleration** and **High-Performance Computing** under the guidance of my academic advisor, **[Prof. Zeyi Wen](https://zeyiwen.github.io)** at HKUST(GZ).
+
+I am now actively looking for **Research Internships (Summer 2026)** to optimize how we train, evaluate, and scale the next generation of AI models.
