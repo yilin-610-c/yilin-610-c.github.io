@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.hkust-gz.edu.cn/'>HKUST(GZ)</a>.
+subtitle: yliu859[at]hkust-gz[dot]edu[dot]cn.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>yliu859@connect.hkust-gz.edu.cn</p>
+    <p></p>
     <p></p>
     <p></p>
 
