@@ -90,6 +90,12 @@
       ]
     },
     {
+      "name": "Diffusion Models",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Image Generation"
+      ]},
+    {
       "name": "Data-Centric AI",
       "icon": "fa-solid fa-tag",
       "keywords": [
