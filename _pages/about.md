@@ -35,9 +35,13 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 Hi, Yilin Liu (刘奕麟) there! You can also call me Caralyn.
 
-I'm a junior at <a href='https://www.hkust-gz.edu.cn/'>HKUST(GZ)</a> majoring in Data Science and Big Data Technology, currently a Visiting Student at UC Berkeley (Fall 2025).
+I'm a junior at <a href='https://www.hkust-gz.edu.cn/'>HKUST(GZ)</a> majoring in Data Science and Big Data Technology, and was a Visiting Student at UC Berkeley (Fall 2025).
 
-My research journey began under the supervision of **[Prof. Jiaheng Wei](https://sites.google.com/ucsc.edu/jiahengwei)**, where I joined a project on **Agentic Data Synthesis** to tackle the scarcity of high-quality reasoning data. While building this application, I confronted the fundamental bottlenecks of model inference and memory costs. This drove my interest down the stack—from high-level agents to the **underlying model architecture** and **system optimization**. Moving forward, I will be conducting research on **LLM Acceleration** and **High-Performance Computing** under the guidance of my academic advisor, **[Prof. Zeyi Wen](https://zeyiwen.github.io)** at HKUST(GZ).
+My research focuses on enhancing LLM performance, spanning from high-quality data synthesis to low-level model compression and optimization.
+
+My journey began with Agentic Data Synthesis under **[Prof. Jiaheng Wei](https://sites.google.com/ucsc.edu/jiahengwei)**, where I explored how multi-agent frameworks can generate high-quality reasoning data to enhance model capabilities efficiently. This work gave me deep insights into "Intelligence Efficiency" from a data perspective.
+
+To complement this, I am now delving into the "System Efficiency" side of the spectrum. Under the guidance of **[Prof. Zeyi Wen](https://zeyiwen.github.io)**, I am focusing on LLM Acceleration and Quantization.
 
 I am now actively looking for **Research Internships (Summer 2026)** to optimize how we train, evaluate, and scale the next generation of AI models.
 

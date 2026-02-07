@@ -31,7 +31,7 @@
       "studyType": "Bachelor",
       "startDate": "2023-09-01",
       "endDate": "2027-06-01",
-      "score": "3.734/4.3",
+      "score": "3.734/4.300",
       "courses": ["Machine Learning", "Deep Learning", "Linear Algebra", "Probability and Statistics"]
     },
     {
@@ -41,8 +41,8 @@
       "area": "",
       "studyType": "Berkeley Global Access Program",
       "startDate": "2025-08-20",
-      "endDate": "2026-12-19",
-      "score": "N/A",
+      "endDate": "2025-12-19",
+      "score": "3.910/4.000",
       "courses": ["Computer Architecture", "Agentic AI", "Data Mining"]
     }
   ],
@@ -82,11 +82,10 @@
   "work": [],
   "interests": [
     {
-      "name": "Efficient ML",
+      "name": "Efficient Models",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Training Acceleration",
-        "Inference Acceleration"
+        "LLM Quantization"
       ]
     },
     {
