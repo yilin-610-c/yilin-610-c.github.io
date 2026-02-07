@@ -392,8 +392,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-i-will-be-attending-neurips-2025-in-san-diego-if-you-are-interested-in-data-synthesis-or-ml-systems-let-s-chat",
-          title: 'I will be attending NeurIPS 2025 in San Diego! 🌴 If you are...',
+            },},{id: "news-back-from-an-enriching-semester-at-uc-berkeley-i-m-proud-to-have-achieved-a-3-91-gpa-and-am-excited-to-apply-the-knowledge-and-insights-i-gained-to-my-future-research",
+          title: 'Back from an enriching semester at UC Berkeley! I’m proud to have achieved...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
