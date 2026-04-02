@@ -41,7 +41,7 @@ My research focuses on enhancing LLM performance, spanning from high-quality dat
 
 My journey began with Agentic Data Synthesis under **[Prof. Jiaheng Wei](https://sites.google.com/ucsc.edu/jiahengwei)**, where I explored how multi-agent frameworks can generate high-quality reasoning data to enhance model capabilities efficiently. This work gave me deep insights into "Intelligence Efficiency" from a data perspective.
 
-To complement this, I am now delving into the "System Efficiency" side of the spectrum. Under the guidance of **[Prof. Zeyi Wen](https://zeyiwen.github.io)**, I am focusing on LLM Acceleration and Quantization.
+To complement this, I am now delving into the "System Efficiency" side of the spectrum. Under the guidance of **[Prof. Zeyi Wen](https://zeyiwen.github.io)**, I am focusing on addressing the bottlenecks of Large Language Models, specifically targeting system architectures for faster inference and more efficient reinforcement learning rollouts in agentic systems.
 
 I am now actively looking for **Research Internships (Summer 2026)** to optimize how we train, evaluate, and scale the next generation of AI models.
 

@@ -46,7 +46,14 @@
       "courses": ["Computer Architecture", "Agentic AI", "Data Mining"]
     }
   ],
-  "awards": [
+  "awards and honors": [
+    {
+      "title": "2025 INFH - Lizhi Innovative Talent Scholarship",
+      "date": "2026-03",
+      "awarder": "HKUST(GZ) Information Hub and Lizhi Group",
+      "url": "",
+      "summary": "Awarded to top 10 undergraduates annually for outstanding academic excellence and research capabilities in AI and Data Science."
+    },
     {
       "title": "Second Prize in Blue Bridge Cup National Software and IT Talent Competition",
       "date": "2025-05",
