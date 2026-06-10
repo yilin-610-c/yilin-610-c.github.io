@@ -33,10 +33,10 @@
       "endDate": "2027-06-01",
       "score": "3.692/4.300",
       "courses": [
+        "Reinforcement Learning",
         "Machine Learning",
         "Deep Learning",
-        "Linear Algebra",
-        "Probability and Statistics"
+        "Introduction to Optimization"
       ]
     },
     {
@@ -93,19 +93,7 @@
     }
   ],
   "projects": [
-    {
-      "name": "SynerMath: Multi-Agent Synthesis of High-Quality Mathematical Data for Efficient LLM Reasoning",
-      "summary": "SynerMath is a multi-agent framework for synthesizing compact yet high-fidelity mathematical question-answer corpora to improve LLM reasoning efficiently. As the second author and sole undergraduate contributor, I worked on literature survey, multi-agent pipeline design, and empirical evaluation across in-domain and out-of-domain mathematical reasoning benchmarks.",
-      "highlights": [
-        "Large Language Models",
-        "Mathematical Reasoning",
-        "Agentic Data Synthesis",
-        "Data-Centric AI"
-      ],
-      "startDate": "2025-03",
-      "endDate": "Present",
-      "url": "https://arxiv.org/abs/2510.19361"
-    },
+
     {
       "name": "System-Algorithm Co-design for Efficient LLM Quantization",
       "summary": "An ongoing research project on efficient LLM inference and model compression. The project aims to design accurate and efficient low-bit quantization methods through system-algorithm co-design, balancing model quality, memory efficiency, and runtime performance under practical hardware and system constraints.",
@@ -131,6 +119,19 @@
       "startDate": "2026-06",
       "endDate": "Present",
       "url": "https://github.com/ClawMobile/ClawMobile"
+    },
+        {
+      "name": "SynerMath: Multi-Agent Synthesis of High-Quality Mathematical Data for Efficient LLM Reasoning",
+      "summary": "SynerMath is a multi-agent framework for synthesizing compact yet high-fidelity mathematical question-answer corpora to improve LLM reasoning efficiently. As the second author and sole undergraduate contributor, I worked on literature survey, multi-agent pipeline design, and empirical evaluation across in-domain and out-of-domain mathematical reasoning benchmarks.",
+      "highlights": [
+        "Large Language Models",
+        "Mathematical Reasoning",
+        "Agentic Data Synthesis",
+        "Data-Centric AI"
+      ],
+      "startDate": "2025-03",
+      "endDate": "Present",
+      "url": "https://arxiv.org/abs/2510.19361"
     },
     {
       "name": "Utilizing Chromoprotein Expression to Counteract Coral Bleaching",
