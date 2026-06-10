@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Yilin Liu",
-    "label": "Undergraduate",
+    "label": "Undergraduate Student",
     "image": "prof_pic.jpg",
     "email": "yliu859@hkust-gz.edu.cn",
-    "phone": "+86 18928769825",
+    "phone": "",
     "url": "https://yilin-610-c.github.io/",
-    "summary": "An undergraduate student at HKUST(GZ) majoring in Data Science and Big Data Technology. Now actively seeking for internship opportunities and research projects in the field of AI and Data Science.",
+    "summary": "I am an undergraduate student at HKUST(GZ) majoring in Data Science and Big Data Technology, and was a visiting student at UC Berkeley in Fall 2025. My research interests lie broadly in efficient and scalable AI systems, especially for Large Language Models. I am interested in improving LLM efficiency across the stack, including high-quality data synthesis, mathematical reasoning, model compression, quantization, and system-level optimization.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -16,9 +16,9 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GitHub",
+        "username": "yilin-610-c",
+        "url": "https://github.com/yilin-610-c"
       }
     ]
   },
@@ -31,8 +31,13 @@
       "studyType": "Bachelor",
       "startDate": "2023-09-01",
       "endDate": "2027-06-01",
-      "score": "3.734/4.300",
-      "courses": ["Machine Learning", "Deep Learning", "Linear Algebra", "Probability and Statistics"]
+      "score": "3.692/4.300",
+      "courses": [
+        "Machine Learning",
+        "Deep Learning",
+        "Linear Algebra",
+        "Probability and Statistics"
+      ]
     },
     {
       "institution": "University of California, Berkeley",
@@ -43,7 +48,11 @@
       "startDate": "2025-08-20",
       "endDate": "2025-12-19",
       "score": "3.910/4.000",
-      "courses": ["Computer Architecture", "Agentic AI", "Data Mining"]
+      "courses": [
+        "Computer Architecture",
+        "Agentic AI",
+        "Data Mining"
+      ]
     }
   ],
   "awards and honors": [
@@ -55,11 +64,18 @@
       "summary": "Awarded to top 10 undergraduates annually for outstanding academic excellence and research capabilities in AI and Data Science."
     },
     {
+      "title": "Outstanding Award in Ascend AI Innovation Competition - Operator Challenge",
+      "date": "2026-06",
+      "awarder": "Ascend AI Innovation Competition, HKUST(GZ) Special Session",
+      "url": "",
+      "summary": "Recognized for performance in AI operator development and optimization in the HKUST(GZ) special session of the Ascend AI Innovation Competition."
+    },
+    {
       "title": "Second Prize in Blue Bridge Cup National Software and IT Talent Competition",
       "date": "2025-05",
-      "awarder": "",
+      "awarder": "Blue Bridge Cup Organizing Committee",
       "url": "https://drive.google.com/file/d/1yOPAgsuNxxyJsHqMxVb5ZxtnyTXtDJ5t/view?usp=sharing",
-      "summary": "Python Programming, Undergraduate Group A, Guangdong Province Division"
+      "summary": "Python Programming, Undergraduate Group A, Guangdong Province Division."
     },
     {
       "title": "Gold Medal, Nomination Prize of Best New Basic Part",
@@ -69,19 +85,62 @@
       "summary": "Awarded Gold Medal for excellence in synthetic biology and coral protection, with a nomination for robust experimental design and sensor characterization."
     },
     {
-      "title": "Second Price in the 3rd Electrical & Electronic Engineering Innovation Competition (National Level)",
+      "title": "Second Prize in the 3rd Electrical & Electronic Engineering Innovation Competition",
       "date": "2024-08",
-      "awarder": "",
+      "awarder": "National Electrical & Electronic Engineering Innovation Competition",
       "url": "https://www.hkust-gz.edu.cn/zh/2024/08/26/%e9%a6%96%e6%ac%a1%e5%8f%82%e8%b5%9b%e5%8d%b3%e6%96%a9%e8%8e%b7%e5%a4%a7%e5%a5%96%ef%bc%81%e6%b8%af%e7%a7%91%e5%a4%a7%ef%bc%88%e5%b9%bf%e5%b7%9e%ef%bc%89%e9%97%aa%e8%80%80%e9%ab%98%e6%a0%a1%e7%94%b5/?variant=zh-cn",
-      "summary": ""
+      "summary": "Received Second Prize at the national level for an engineering innovation project."
     }
   ],
   "projects": [
     {
-      "name": "Utilising Chromoprotein Expression to Counteract Coral Bleaching",
-      "summary":" To address coral bleaching problems, the project aims to design a genetic circuit conditionally expressing chromoprotein regulated by heat and light intensity, mimicsing the protective effects of turbid waters and thereby reduces the damages caused by high temperature and high light intensity to corals.  As one of the main wet lab contributor, I spearheaded the design of a key circuit part and conducted intensive wet lab experiments. I was responsible for the end-to-end experimental process, from designing protocols and executing complex assays to maintaining comprehensive documentation.",
-      "highlights": ["Sythetic Biology", "AI for Science"],
-      "startDate": "2024-2",
+      "name": "SynerMath: Multi-Agent Synthesis of High-Quality Mathematical Data for Efficient LLM Reasoning",
+      "summary": "SynerMath is a multi-agent framework for synthesizing compact yet high-fidelity mathematical question-answer corpora to improve LLM reasoning efficiently. As the second author and sole undergraduate contributor, I worked on literature survey, multi-agent pipeline design, and empirical evaluation across in-domain and out-of-domain mathematical reasoning benchmarks.",
+      "highlights": [
+        "Large Language Models",
+        "Mathematical Reasoning",
+        "Agentic Data Synthesis",
+        "Data-Centric AI"
+      ],
+      "startDate": "2025-03",
+      "endDate": "Present",
+      "url": "https://arxiv.org/abs/2510.19361"
+    },
+    {
+      "name": "System-Algorithm Co-design for Efficient LLM Quantization",
+      "summary": "An ongoing research project on efficient LLM inference and model compression. The project aims to design accurate and efficient low-bit quantization methods through system-algorithm co-design, balancing model quality, memory efficiency, and runtime performance under practical hardware and system constraints.",
+      "highlights": [
+        "LLM Quantization",
+        "Model Compression",
+        "Efficient Inference",
+        "AI Systems"
+      ],
+      "startDate": "2026-05",
+      "endDate": "Present",
+      "url": ""
+    },
+    {
+      "name": "ClawMobile: Efficient and Reliable Smartphone-Native Agentic Systems",
+      "summary": "A recent research exploration on mobile agent systems at MBZUAI. I am investigating token efficiency, skill representation, and execution reliability in smartphone-native agentic systems, with an interest in making agent workflows more efficient and robust on real mobile environments.",
+      "highlights": [
+        "AI Agents",
+        "Mobile Systems",
+        "Token Efficiency",
+        "Agentic Systems"
+      ],
+      "startDate": "2026-06",
+      "endDate": "Present",
+      "url": "https://github.com/ClawMobile/ClawMobile"
+    },
+    {
+      "name": "Utilizing Chromoprotein Expression to Counteract Coral Bleaching",
+      "summary": "To address coral bleaching, this project designed a genetic circuit that conditionally expresses chromoproteins regulated by heat and light intensity, mimicking the protective effects of turbid waters and reducing the damage caused by high temperature and high light intensity to corals. As one of the main wet lab contributors, I contributed to the design of a key circuit part and conducted intensive wet lab experiments, covering protocol design, assay execution, and experimental documentation.",
+      "highlights": [
+        "Synthetic Biology",
+        "AI for Science",
+        "Wet Lab Experiments"
+      ],
+      "startDate": "2024-02",
       "endDate": "2024-10",
       "url": "https://2024.igem.wiki/hkust-gz"
     }
@@ -89,24 +148,30 @@
   "work": [],
   "interests": [
     {
-      "name": "Efficient Models",
+      "name": "Efficient AI Systems",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "LLM Quantization"
+        "LLM Systems",
+        "Efficient Inference",
+        "System Optimization"
       ]
     },
     {
-      "name": "Diffusion Models",
+      "name": "Model Compression",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Image Generation"
-      ]},
+        "LLM Quantization",
+        "KV Cache Optimization",
+        "Low-bit Inference"
+      ]
+    },
     {
       "name": "Data-Centric AI",
       "icon": "fa-solid fa-tag",
       "keywords": [
         "Synthetic Data Generation",
-        "Data Selection & Pruning"
+        "Data Selection",
+        "Mathematical Reasoning"
       ]
     },
     {
@@ -114,7 +179,8 @@
       "icon": "fa-solid fa-tag",
       "keywords": [
         "Multi-agent Collaboration",
-        "Tool Usage"
+        "Tool Usage",
+        "Mobile Agents"
       ]
     }
   ],
@@ -131,10 +197,23 @@
       ]
     },
     {
+      "name": "Machine Learning & Systems",
+      "level": "",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "PyTorch",
+        "Hugging Face",
+        "LLM Fine-tuning",
+        "Model Evaluation",
+        "Quantization"
+      ]
+    },
+    {
       "name": "Research Techniques",
       "level": "",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
+        "Literature Review",
         "Experimental Design",
         "Data Analysis and Visualization",
         "Model Training and Evaluation"
@@ -149,14 +228,22 @@
       "url": "",
       "startDate": "2024-09",
       "endDate": "Present",
-      "summary": "Participated in filming and producing various campus videos to promote university events and enhance the public image of HKUST(GZ).",
-      "highlights": [" <a href='https://www.bilibili.com/video/BV1Hw3Lz4EyH/?share_source=copy_web&vd_source=96d477b909d9269f34c545c2846f0d0d' target='_blank'>Check out a dormitory tour video I co-filmed here!</a>"]
+      "summary": "Participated in filming and producing campus videos to promote university events and enhance the public image of HKUST(GZ).",
+      "highlights": [
+        "<a href='https://www.bilibili.com/video/BV1Hw3Lz4EyH/?share_source=copy_web&vd_source=96d477b909d9269f34c545c2846f0d0d' target='_blank'>Check out a dormitory tour video I co-filmed here!</a>"
+      ]
     }
   ],
-  
   "certificates": [],
-  "publications": [],
-
+  "publications": [
+    {
+      "name": "SynerMath: Multi-Agent Synthesis of High-Quality Mathematical Data for Efficient LLM Reasoning",
+      "publisher": "Accepted to ICLR 2026 Workshop; under review at NeurIPS 2026",
+      "releaseDate": "2025-10",
+      "url": "https://arxiv.org/abs/2510.19361",
+      "summary": "A multi-agent data synthesis framework for generating high-quality mathematical reasoning data, enabling efficient LLM fine-tuning with substantially fewer training samples."
+    }
+  ],
   "languages": [
     {
       "language": "Chinese",
@@ -169,6 +256,5 @@
       "icon": ""
     }
   ],
-
   "references": []
 }

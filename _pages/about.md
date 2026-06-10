@@ -35,14 +35,16 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 Hi, Yilin Liu (刘奕麟) there! You can also call me Caralyn.
 
-I'm a junior at <a href='https://www.hkust-gz.edu.cn/'>HKUST(GZ)</a> majoring in Data Science and Big Data Technology, and was a Visiting Student at UC Berkeley (Fall 2025).
+I'm a junior at <a href='https://www.hkust-gz.edu.cn/'>HKUST(GZ)</a> majoring in Data Science and Big Data Technology, and was a Visiting Student at UC Berkeley in Fall 2025.
 
-My research focuses on enhancing LLM performance, spanning from high-quality data synthesis to low-level model compression and optimization.
+My research interests lie broadly in efficient and scalable AI systems, especially for Large Language Models. I am interested in improving LLM efficiency across the stack, from high-quality data synthesis and reasoning enhancement to model compression, quantization, and system-level optimization.
 
-My journey began with Agentic Data Synthesis under **[Prof. Jiaheng Wei](https://sites.google.com/ucsc.edu/jiahengwei)**, where I explored how multi-agent frameworks can generate high-quality reasoning data to enhance model capabilities efficiently. This work gave me deep insights into "Intelligence Efficiency" from a data perspective.
+My research journey began with agentic data synthesis under <a href='https://sites.google.com/ucsc.edu/jiahengwei'>Prof. Jiaheng Wei</a>, where I explored how multi-agent frameworks can synthesize high-quality mathematical reasoning data and improve model capabilities with much fewer training samples. This experience shaped my interest in efficiency from the data and learning perspective.
 
-To complement this, I am now delving into the "System Efficiency" side of the spectrum. Under the guidance of **[Prof. Zeyi Wen](https://zeyiwen.github.io)**, I am focusing on addressing the bottlenecks of Large Language Models, specifically targeting system architectures for faster inference and more efficient reinforcement learning rollouts in agentic systems.
+More recently, under the guidance of <a href='https://zeyiwen.github.io'>Prof. Zeyi Wen</a>, I have been working on efficient LLM inference and model compression, with a focus on system--algorithm co-design for accurate and efficient low-bit quantization. I am particularly interested in designing methods that better balance model quality, memory efficiency, and runtime performance under practical hardware and system constraints.
 
-I am now actively looking for **Research Internships (Summer 2026)** to optimize how we train, evaluate, and scale the next generation of AI models.
+I have also recently started exploring mobile agent systems through the ClawMobile project at MBZUAI, advised by <a href='https://mbzuai.ac.ae/study/faculty/chun-jason-xue/'>Prof. Chun Jason Xue</a>, where I am looking into the efficiency and reliability challenges of smartphone-native agentic systems.
+
+
 
 For more details about my background and projects, please check out my [CV](/cv/).
