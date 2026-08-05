@@ -2,96 +2,70 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Yilin Liu
+    - name: Research Interests
+      value: Efficient AI Systems, LLM Inference, Quantization, GPU Systems
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: B.Sc. in Data Science and Big Data Technology
+      institution: The Hong Kong University of Science and Technology (Guangzhou)
+      year: 2023 - 2027 (Expected)
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - GPA: 3.692/4.300; Dean's List for three semesters.
+        - Relevant coursework: Machine Learning, Deep Learning, Reinforcement Learning, Computer Architecture, Optimization.
+    - title: Visiting Student
+      institution: University of California, Berkeley
+      year: 2025
       description:
-        - Description 1.
-        - Description 2.
+        - Berkeley Global Access Program; GPA: 3.914/4.000.
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: System--Algorithm Co-design for Efficient LLM Quantization
+      institution: HKUST(GZ), Supervisor: Prof. Zeyi Wen
+      year: 2026 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Investigating low-bit KV-cache quantization and efficient autoregressive decoding.
+        - Studying accuracy, memory efficiency, and GPU-aware execution trade-offs.
+    - title: ClawMobile: Efficient and Reliable Smartphone-Native Agent Systems
+      institution: MBZUAI UGRIP 2026
+      year: 2026 - Present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Exploring token-efficient mobile agents, reusable skills, and reliable execution.
+    - title: SynerMath: Multi-Agent Synthesis of High-Quality Mathematical Data
+      institution: HKUST(GZ), Supervisor: Prof. Jiaheng Wei
+      year: 2025 - 2026
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        - Developed multi-agent data synthesis pipelines for efficient LLM reasoning.
+        - Accepted at DATA-FM Workshop at ICLR 2026; extended version under review.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2026
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - MBZUAI UGRIP 2026 Best Project Award
+        - INFH-Lizhi Innovative Talent Scholarship
+        - Ascend AI Innovation Competition Outstanding Award
+    - year: 2025
       items:
-        - Max Planck Medal
+        - Blue Bridge Cup National Software and IT Talent Competition Second Prize
+    - year: 2024
+      items:
+        - iGEM Gold Medal and Best New Basic Part Nomination
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Efficient AI Systems
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - LLM inference and serving
+        - Low-precision computation
+        - GPU-aware optimization
+    - title: AI Agents
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Mobile agents
+        - Agentic data synthesis
