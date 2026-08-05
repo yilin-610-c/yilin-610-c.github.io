@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Yilin Liu",
-    "label": "Undergraduate Student",
+    "label": "Final-year Undergraduate Student",
     "image": "prof_pic.jpg",
     "email": "yliu859@hkust-gz.edu.cn",
     "phone": "",
     "url": "https://yilin-610-c.github.io/",
-    "summary": "I am an undergraduate student at HKUST(GZ) majoring in Data Science and Big Data Technology, and was a visiting student at UC Berkeley in Fall 2025. My research interests lie broadly in efficient and scalable AI systems, especially for Large Language Models. I am interested in improving LLM efficiency across the stack, including high-quality data synthesis, mathematical reasoning, model compression, quantization, and system-level optimization.",
+    "summary": "I am a final-year undergraduate student at HKUST(GZ) majoring in Data Science and Big Data Technology, and was a visiting student at UC Berkeley in Fall 2025. My research interests focus on Efficient AI Systems and LLM Inference, including quantization, KV-cache optimization, GPU-aware execution, and system-algorithm co-design.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -36,7 +36,7 @@
         "Reinforcement Learning",
         "Machine Learning",
         "Deep Learning",
-        "Introduction to Optimization"
+        "Optimization"
       ]
     },
     {
@@ -56,6 +56,13 @@
     }
   ],
   "awards and honors": [
+    {
+      "title": "MBZUAI UGRIP 2026 Best Project Award",
+      "date": "2026-06",
+      "awarder": "Mohamed bin Zayed University of Artificial Intelligence",
+      "url": "",
+      "summary": "Received for work on efficient and reliable mobile agent systems during UGRIP 2026."
+    },
     {
       "title": "2025 INFH - Lizhi Innovative Talent Scholarship",
       "date": "2026-03",
@@ -95,34 +102,35 @@
   "projects": [
 
     {
-      "name": "System-Algorithm Co-design for Efficient LLM Quantization",
-      "summary": "An ongoing research project on efficient LLM inference and model compression. The project aims to design accurate and efficient low-bit quantization methods through system-algorithm co-design, balancing model quality, memory efficiency, and runtime performance under practical hardware and system constraints.",
+      "name": "Efficient LLM Inference / KV Cache Quantization",
+      "summary": "Research on efficient LLM inference through low-bit KV cache quantization, autoregressive decoding optimization, Tensor Core friendly execution, GPU-aware design, and quantization accuracy and scale selection.",
       "highlights": [
-        "LLM Quantization",
-        "Model Compression",
-        "Efficient Inference",
-        "AI Systems"
+        "Low-bit KV Cache",
+        "Autoregressive Decoding",
+        "Tensor Core Friendly Execution",
+        "GPU-aware Optimization"
       ],
       "startDate": "2026-05",
       "endDate": "Present",
       "url": ""
     },
     {
-      "name": "ClawMobile: Efficient and Reliable Smartphone-Native Agentic Systems",
-      "summary": "A recent research exploration on mobile agent systems at MBZUAI. I am investigating token efficiency, skill representation, and execution reliability in smartphone-native agentic systems, with an interest in making agent workflows more efficient and robust on real mobile environments.",
+      "name": "ClawMobile",
+      "summary": "Research on efficient and reliable smartphone-native agents at MBZUAI UGRIP 2026, advised by Prof. Chun Jason Xue and Prof. Youcheng Sun. The project studies token efficiency, reusable skills and capability recipes, reliable Android execution, and UI fallback mechanisms.",
       "highlights": [
-        "AI Agents",
-        "Mobile Systems",
+        "Smartphone-native Agents",
         "Token Efficiency",
-        "Agentic Systems"
+        "Reusable Skills",
+        "Reliable Android Execution",
+        "MBZUAI UGRIP 2026 Best Project Award"
       ],
       "startDate": "2026-06",
       "endDate": "Present",
       "url": "https://github.com/ClawMobile/ClawMobile"
     },
-        {
-      "name": "SynerMath: Multi-Agent Synthesis of High-Quality Mathematical Data for Efficient LLM Reasoning",
-      "summary": "SynerMath is a multi-agent framework for synthesizing compact yet high-fidelity mathematical question-answer corpora to improve LLM reasoning efficiently. As the second author and sole undergraduate contributor, I worked on literature survey, multi-agent pipeline design, and empirical evaluation across in-domain and out-of-domain mathematical reasoning benchmarks.",
+    {
+      "name": "SynerMath",
+      "summary": "A multi-agent framework for synthesizing high-quality mathematical reasoning data for efficient LLM reasoning. I contributed to literature review, pipeline design, and empirical evaluation. Workshop version accepted at DATA-FM @ ICLR 2026.",
       "highlights": [
         "Large Language Models",
         "Mathematical Reasoning",
@@ -132,18 +140,6 @@
       "startDate": "2025-03",
       "endDate": "Present",
       "url": "https://arxiv.org/abs/2510.19361"
-    },
-    {
-      "name": "Utilizing Chromoprotein Expression to Counteract Coral Bleaching",
-      "summary": "To address coral bleaching, this project designed a genetic circuit that conditionally expresses chromoproteins regulated by heat and light intensity, mimicking the protective effects of turbid waters and reducing the damage caused by high temperature and high light intensity to corals. As one of the main wet lab contributors, I contributed to the design of a key circuit part and conducted intensive wet lab experiments, covering protocol design, assay execution, and experimental documentation.",
-      "highlights": [
-        "Synthetic Biology",
-        "AI for Science",
-        "Wet Lab Experiments"
-      ],
-      "startDate": "2024-02",
-      "endDate": "2024-10",
-      "url": "https://2024.igem.wiki/hkust-gz"
     }
   ],
   "work": [],
@@ -239,10 +235,10 @@
   "publications": [
     {
       "name": "SynerMath: Multi-Agent Synthesis of High-Quality Mathematical Data for Efficient LLM Reasoning",
-      "publisher": "Accepted to ICLR 2026 Workshop; under review at NeurIPS 2026",
+      "publisher": "DATA-FM Workshop at ICLR 2026",
       "releaseDate": "2025-10",
       "url": "https://arxiv.org/abs/2510.19361",
-      "summary": "A multi-agent data synthesis framework for generating high-quality mathematical reasoning data, enabling efficient LLM fine-tuning with substantially fewer training samples."
+      "summary": "Workshop version accepted at DATA-FM @ ICLR 2026."
     }
   ],
   "languages": [

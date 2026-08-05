@@ -6,6 +6,8 @@ description: Selected research projects in efficient AI systems.
 nav: true
 published: true
 nav_order: 3
+display_categories: [research]
+horizontal: true
 ---
 
 <div class="projects">

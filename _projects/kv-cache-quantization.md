@@ -10,14 +10,16 @@ category: research
 
 This project investigates efficient Large Language Model inference under memory and computation constraints, with a focus on KV cache optimization for autoregressive decoding.
 
-The key idea is to design quantization methods and execution paths that better match modern GPU low-precision hardware, reducing memory movement while preserving model quality.
+The key idea is to design quantization methods and execution paths that better match modern GPU low-precision hardware, reducing memory movement while preserving model quality. The work emphasizes system-algorithm co-design without disclosing unpublished experimental results.
 
 ## Research Focus
 
 - Low-bit KV cache representation
+- Autoregressive decoding efficiency
 - Tensor Core friendly attention computation
 - Quantization accuracy and scale selection
 - GPU-aware inference optimization
+- System-algorithm co-design
 
 ## Goal
 
