@@ -3,48 +3,32 @@ layout: about
 title: about
 permalink: /
 subtitle: yliu859[at]hkust-gz[dot]edu[dot]cn.
-
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p></p>
-    <p></p>
-    <p></p>
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
+  image_circular: false
+selected_papers: true
+social: true
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
+  enabled: true
+  scrollable: true
+  limit: 5
 latest_posts:
   enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
-<!-- 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Hi, I am Yilin Liu (刘奕麟), also known as Caralyn.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+I am a final-year undergraduate student at <a href='https://www.hkust-gz.edu.cn/'>HKUST(GZ)</a> majoring in Data Science and Big Data Technology, and was a Visiting Student at UC Berkeley through the Global Access Program in Fall 2025.
 
-Hi, Yilin Liu (刘奕麟) there! You can also call me Caralyn.
+My research focuses on **efficient AI systems**, especially efficient Large Language Model inference, low-precision computation, and system--algorithm co-design. I am interested in improving LLM efficiency across the stack, from model compression and quantization algorithms to GPU-aware execution and practical deployment systems.
 
-I'm a junior at <a href='https://www.hkust-gz.edu.cn/'>HKUST(GZ)</a> majoring in Data Science and Big Data Technology, and was a Visiting Student at UC Berkeley in Fall 2025.
+Currently, under the guidance of <a href='https://zeyiwen.github.io'>Prof. Zeyi Wen</a>, I work on efficient LLM inference and low-bit KV-cache quantization, studying how quantization algorithms and hardware execution paths can be jointly optimized for better accuracy, memory efficiency, and runtime performance.
 
-My research interests lie broadly in efficient and scalable AI systems, especially for Large Language Models. I am interested in improving LLM efficiency across the stack, from high-quality data synthesis and reasoning enhancement to model compression, quantization, and system-level optimization.
+Previously, under the guidance of <a href='https://sites.google.com/ucsc.edu/jiahengwei'>Prof. Jiaheng Wei</a>, I worked on agentic data synthesis for mathematical reasoning, exploring how multi-agent frameworks can generate high-quality training data with substantially fewer samples. This experience motivated my broader interest in efficient AI from both data and systems perspectives.
 
-My research journey began with agentic data synthesis under <a href='https://sites.google.com/ucsc.edu/jiahengwei'>Prof. Jiaheng Wei</a>, where I explored how multi-agent frameworks can synthesize high-quality mathematical reasoning data and improve model capabilities with much fewer training samples. This experience shaped my interest in efficiency from the data and learning perspective.
+I also explored smartphone-native agent systems through the ClawMobile project at MBZUAI UGRIP 2026, where I investigated token efficiency, reusable skills, and reliability challenges in real-world mobile agent execution.
 
-More recently, under the guidance of <a href='https://zeyiwen.github.io'>Prof. Zeyi Wen</a>, I have been working on efficient LLM inference and model compression, with a focus on system--algorithm co-design for accurate and efficient low-bit quantization. I am particularly interested in designing methods that better balance model quality, memory efficiency, and runtime performance under practical hardware and system constraints.
+I am currently seeking research-oriented graduate opportunities for Fall 2027 in ML systems, efficient LLM inference, and related areas.
 
-I have also recently started exploring mobile agent systems through the ClawMobile project at MBZUAI, advised by <a href='https://mbzuai.ac.ae/study/faculty/chun-jason-xue/'>Prof. Chun Jason Xue</a>, where I am looking into the efficiency and reliability challenges of smartphone-native agentic systems.
-
-
-
-For more details about my background and projects, please check out my [CV](/cv/).
+For more details, please check my [CV](/cv/).
