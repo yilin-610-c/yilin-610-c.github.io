@@ -1,23 +1,23 @@
 ---
 layout: page
 title: SynerMath: Multi-Agent Synthesis for Mathematical Reasoning
- description: Data-centric AI for efficient LLM reasoning.
+description: Data-centric AI for efficient LLM reasoning.
 importance: 3
 category: research
 ---
 
 ## Overview
 
-SynerMath is a multi-agent framework for synthesizing high-quality mathematical reasoning data for Large Language Models.
+SynerMath explores multi-agent approaches for synthesizing high-quality mathematical reasoning data for Large Language Models.
 
-The project explores how coordinated agents can improve data generation quality and training efficiency.
+The project investigates how agent collaboration can improve the quality, diversity, and efficiency of reasoning data generation.
 
 ## Research Focus
 
 - Multi-agent data synthesis
 - Mathematical reasoning
 - Data-centric LLM improvement
-- Efficient model training
+- Evaluation of generated reasoning data
 
 ## Contribution
 
