@@ -1,5 +1,3 @@
-# Updated academic website metadata
-
 title: Yilin Liu
 first_name: Yilin
 middle_name:
@@ -16,6 +14,42 @@ icon: 🤖
 
 url: https://yilin-610-c.github.io
 baseurl:
+navbar_fixed: true
+footer_fixed: true
+search_enabled: true
+socials_in_search: true
+bib_search: true
+max_width: 930px
+
+collections:
+  books:
+    output: true
+  news:
+    defaults:
+      layout: post
+    output: true
+  projects:
+    output: true
+
+include: ["_pages", "_scripts"]
+exclude:
+  - _pages/about_einstein.md
+
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-archives-v2
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-get-json
+  - jekyll-imagemagick
+  - jekyll-paginate-v2
+  - jekyll/scholar
+  - jekyll-sitemap
+  - jemoji
+
+pagination:
+  enabled: true
 
 scholar:
   last_name: [Liu]
@@ -28,8 +62,25 @@ scholar:
   bibtex_filters: [latex, smallcaps, superscript]
   replace_strings: true
   join_strings: true
-  details_dir: bibliography
-  details_link: Details
   query: "@*"
   group_by: year
   group_order: descending
+
+jekyll_get_json:
+  - data: resume
+    json: assets/json/resume.json
+
+jsonresume:
+  - basics
+  - education
+  - publications
+  - projects
+  - volunteer
+  - awards
+  - skills
+  - languages
+  - interests
+
+enable_project_categories: true
+enable_masonry: true
+enable_math: true
