@@ -14,12 +14,13 @@
       year: 2023 - 2027 (Expected)
       description:
         - GPA: 3.692/4.300; Dean's List for three semesters.
-        - Relevant coursework: Machine Learning, Deep Learning, Reinforcement Learning, Computer Architecture, Optimization.
+        - Relevant coursework: Machine Learning, Deep Learning, Reinforcement Learning, Optimization.
     - title: Visiting Student
       institution: University of California, Berkeley
       year: 2025
       description:
-        - Berkeley Global Access Program; GPA: 3.914/4.000.
+        - Berkeley Global Access Program; GPA: 3.910/4.000.
+        - Relevant coursework: Computer Architecture, Agentic AI, Data Mining.
 
 - title: Research Experience
   type: time_table
@@ -31,16 +32,17 @@
         - Investigating low-bit KV-cache quantization and efficient autoregressive decoding.
         - Studying accuracy, memory efficiency, and GPU-aware execution trade-offs.
     - title: ClawMobile: Efficient and Reliable Smartphone-Native Agent Systems
-      institution: MBZUAI UGRIP 2026
-      year: 2026 - Present
+      institution: MBZUAI UGRIP 2026; Supervisors: Prof. Chun Jason Xue and Prof. Youcheng Sun
+      year: 2026
       description:
         - Exploring token-efficient mobile agents, reusable skills, and reliable execution.
+        - Received the MBZUAI UGRIP 2026 Best Project Award.
     - title: SynerMath: Multi-Agent Synthesis of High-Quality Mathematical Data
       institution: HKUST(GZ), Supervisor: Prof. Jiaheng Wei
       year: 2025 - 2026
       description:
         - Developed multi-agent data synthesis pipelines for efficient LLM reasoning.
-        - Accepted at DATA-FM Workshop at ICLR 2026; extended version under review.
+        - Workshop version accepted at DATA-FM at ICLR 2026.
 
 - title: Honors and Awards
   type: time_table
