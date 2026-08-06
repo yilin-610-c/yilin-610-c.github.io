@@ -1,0 +1,94 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[margin=0.48in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{ifthen}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{0pt}
+\setlist[itemize]{leftmargin=1.15em,itemsep=0.05em,topsep=0.12em,parsep=0pt,partopsep=0pt}
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\vspace{-0.35em}\rule{\textwidth}{0.45pt}]
+\titlespacing*{\section}{0pt}{0.42em}{0.22em}
+
+\newcommand{\entry}[4]{%
+  \begin{tabularx}{\textwidth}{@{}Xr@{}}
+    \textbf{#1} & #2 \\
+    \textit{#3} & \textit{#4}
+  \end{tabularx}
+}
+
+\newcommand{\award}[2]{%
+  \begin{tabularx}{\textwidth}{@{}p{0.07\textwidth}X@{}}
+    #1 & #2
+  \end{tabularx}
+}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries Yilin Liu}\\[-0.1em]
+  \href{mailto:yliu859@hkust-gz.edu.cn}{yliu859@hkust-gz.edu.cn}
+  \;|\;
+  \href{https://yilin-610-c.github.io}{yilin-610-c.github.io}
+\end{center}
+\vspace{-0.65em}
+
+\section*{Research Interests}
+Efficient AI systems; LLM inference and serving; low-precision computation; KV-cache quantization; GPU-aware system--algorithm co-design; agent systems.
+
+\section*{Education}
+\entry{Hong Kong University of Science and Technology (Guangzhou)}{Sep. 2023 -- Jun. 2027 (expected)}{B.Sc. in Data Science and Big Data Technology}{Guangzhou, China}
+\begin{itemize}
+  \item GPA: 3.692/4.300; coursework in machine learning, deep learning, reinforcement learning, and optimization.
+\end{itemize}
+
+\entry{University of California, Berkeley}{Aug. 2025 -- Dec. 2025}{Berkeley Global Access Program, Visiting Student}{Berkeley, CA, USA}
+\begin{itemize}
+  \item GPA: 3.910/4.000; coursework in computer architecture, agentic AI, and data mining.
+\end{itemize}
+
+\section*{Research Experience}
+\entry{Efficient LLM Inference and Low-Precision KV-Cache Quantization}{May 2026 -- Present}{Undergraduate Researcher, HKUST(GZ); advised by Prof. Zeyi Wen}{Guangzhou, China}
+\begin{itemize}
+  \item Study efficient autoregressive decoding with low-bit KV caches, focusing on the interaction among quantization algorithms, data layouts, and GPU execution paths.
+  \item Analyze related systems including QServe, BitDecoding, TurboAttention, FlashInfer, and vLLM; design accuracy, latency, memory, and H100 profiling evaluations.
+\end{itemize}
+
+\entry{ClawMobile: Efficient and Reliable Mobile Agents}{Jun. 2026 -- Present}{Undergraduate Research Intern, MBZUAI UGRIP}{Online / Abu Dhabi, UAE}
+\vspace{-0.15em}
+\textit{Advised by Prof. Chun Jason Xue and Prof. Youcheng Sun.}
+\begin{itemize}
+  \item Investigated token efficiency and execution reliability for smartphone-native agents operating in real Android environments.
+  \item Designed capability recipes and evaluation workflows for token usage and task completion; the team received the UGRIP 2026 Best Project Award.
+\end{itemize}
+
+\entry{Agentic Mathematical Data Synthesis}{Mar. 2025 -- Apr. 2026}{Undergraduate Researcher; advised by Prof. Jiaheng Wei}{Guangzhou, China}
+\begin{itemize}
+  \item Contributed to a multi-agent framework for synthesizing compact, high-quality mathematical reasoning data for efficient LLM fine-tuning.
+\end{itemize}
+
+\section*{Publication}
+\textbf{AgenticMath: Enhancing LLM Reasoning via Agentic-based Math Data Generation.}\\
+Xianyang Liu, \textbf{Yilin Liu}, Shuai Wang, Hao Cheng, Andrew Estornell, Yuzhi Zhao, Jun Shu, and Jiaheng Wei. arXiv preprint arXiv:2510.19361, 2025. \href{https://arxiv.org/abs/2510.19361}{[Paper]}
+
+\section*{Honors and Awards}
+\award{2026}{Best Project Award, MBZUAI Undergraduate Research Internship Program (UGRIP)}
+\award{2026}{2025 INFH--Lizhi Innovative Talent Scholarship, HKUST(GZ)}
+\award{2026}{Outstanding Award, Ascend AI Innovation Competition -- Operator Challenge, HKUST(GZ) Special Session}
+\award{2025}{Second Prize, Blue Bridge Cup National Software and IT Talent Competition, Guangdong Division}
+\award{2024}{Gold Medal and Best New Basic Part Nomination, International Genetically Engineered Machine Competition (iGEM)}
+
+\section*{Technical Skills}
+\textbf{Programming:} Python, C++, C, Bash, Git.\\
+\textbf{ML and systems:} PyTorch, Hugging Face, Triton (learning), CUDA profiling, Nsight Compute, FlashInfer, vLLM, model evaluation, quantization.\\
+\textbf{Research:} Literature review, experimental design, benchmarking, data analysis, technical writing, and presentation.
+
+\end{document}

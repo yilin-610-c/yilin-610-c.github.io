@@ -33,13 +33,13 @@
         - Studying accuracy, memory efficiency, and GPU-aware execution trade-offs.
     - title: ClawMobile: Efficient and Reliable Smartphone-Native Agent Systems
       institution: MBZUAI UGRIP 2026; Supervisors: Prof. Chun Jason Xue and Prof. Youcheng Sun
-      year: 2026
+      year: 2026 - Present
       description:
         - Exploring token-efficient mobile agents, reusable skills, and reliable execution.
         - Received the MBZUAI UGRIP 2026 Best Project Award.
     - title: SynerMath: Multi-Agent Synthesis of High-Quality Mathematical Data
       institution: HKUST(GZ), Supervisor: Prof. Jiaheng Wei
-      year: 2025 - 2026
+      year: 2025 - Apr. 2026
       description:
         - Developed multi-agent data synthesis pipelines for efficient LLM reasoning.
         - Workshop version accepted at DATA-FM @ ICLR 2026.
