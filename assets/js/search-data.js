@@ -9,83 +9,70 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-cv",
+  },{id: "nav-research",
+          title: "research",
+          description: "Efficient LLM inference, quantization, and agents for systems development and evaluation.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-publications",
+          title: "publications",
+          description: "Accepted workshop publications and public preprints.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-cv",
           title: "cv",
-          description: "",
+          description: "Public academic CV · Updated November 2026",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-started-my-visiting-semester-at-uc-berkeley-through-the-global-access-program-go-bears",
+        },{id: "news-started-my-visiting-semester-at-uc-berkeley-through-the-global-access-program-go-bears",
           title: 'Started my visiting semester at UC Berkeley through the Global Access Program. Go...',
           description: "",
-          section: "News",},{id: "news-our-paper-quot-agenticmath-quot-is-now-available-on-arxiv",
-          title: 'Our paper &amp;quot;AgenticMath&amp;quot; is now available on ArXiv',
+          section: "News",},{id: "news-agenticmath-preprint-is-available-on-arxiv",
+          title: 'AgenticMath preprint is available on arXiv',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-back-from-an-enriching-semester-at-uc-berkeley-i-m-proud-to-have-achieved-a-3-91-gpa-and-am-excited-to-apply-the-knowledge-and-insights-i-gained-to-my-future-research",
-          title: 'Back from an enriching semester at UC Berkeley! I’m proud to have achieved...',
+            },},{id: "news-completed-my-fall-2025-visiting-semester-at-uc-berkeley-through-the-berkeley-global-access-program-with-a-3-914-4-000-gpa",
+          title: 'Completed my Fall 2025 visiting semester at UC Berkeley through the Berkeley Global...',
           description: "",
-          section: "News",},{id: "news-honored-to-join-the-undergraduate-research-internship-program-ugrip-2026-at-mbzuai-where-i-will-work-on-research-in-efficient-and-reliable-mobile-agent-systems",
-          title: 'Honored to join the Undergraduate Research Internship Program (UGRIP 2026) at MBZUAI, where...',
+          section: "News",},{id: "news-joined-mbzuai-s-undergraduate-research-internship-program-ugrip-2026-to-study-efficient-and-reliable-on-device-ai-agents",
+          title: 'Joined MBZUAI’s Undergraduate Research Internship Program (UGRIP 2026) to study efficient and reliable...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "news-our-mbzuai-ugrip-2026-project-received-the-best-project-award-one-of-three-awarded-projects-among-22-for-work-on-efficient-and-reliable-on-device-agents",
+          title: 'Our MBZUAI UGRIP 2026 project received the Best Project Award, one of three...',
+          description: "",
+          section: "News",},{id: "projects-reliable-on-device-ai-agents-and-real-world-evaluation",
+          title: 'Reliable On-Device AI Agents and Real-World Evaluation',
+          description: "Prototyping mobile agent capabilities and improving the reliability of Android and cross-session memory evaluations.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/clawmobile/";
+            },},{id: "projects-hardware-aware-kv-cache-quantization-for-efficient-llm-serving",
+          title: 'Hardware-Aware KV-Cache Quantization for Efficient LLM Serving',
+          description: "Studying how low-bit representations and GPU execution constraints affect quantization accuracy and serving efficiency.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/kv-cache-quantization/";
+            },},{id: "projects-benchmarking-ai-agents-for-quantization-kernel-development",
+          title: 'Benchmarking AI Agents for Quantization Kernel Development',
+          description: "Investigating how to evaluate coding agents on quantization-related GPU kernel tasks.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/quantization-kernel-agent-benchmark/";
+            },},{id: "projects-agenticmath-multi-agent-mathematical-data-synthesis",
+          title: 'AgenticMath: Multi-Agent Mathematical Data Synthesis',
+          description: "Engineering and evaluating a multi-agent pipeline for compact mathematical reasoning datasets.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/synermath/";
             },},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/Yilin_Liu_CV.pdf", "_blank");
+          window.open("/assets/pdf/CV_Yilin_Liu.pdf", "_blank");
         },
       },{
         id: 'social-email',
@@ -93,6 +80,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("mailto:%79%6C%69%75%38%35%39@%63%6F%6E%6E%65%63%74.%68%6B%75%73%74-%67%7A.%65%64%75.%63%6E", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/yilin-610-c", "_blank");
         },
       },{
         id: 'social-linkedin',
