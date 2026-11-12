@@ -2,33 +2,30 @@
 layout: about
 title: about
 permalink: /
-subtitle: yliu859[at]hkust-gz[dot]edu[dot]cn.
+subtitle: Efficient AI systems · HKUST(GZ)
 profile:
   align: right
   image: prof_pic.jpg
+  image_alt: Yilin Liu
   image_circular: false
 selected_papers: true
 social: true
 announcements:
   enabled: true
-  scrollable: true
-  limit: 5
+  scrollable: false
+  limit: 3
 latest_posts:
   enabled: false
 ---
 
-Hi, I am Yilin Liu (刘奕麟), also known as Caralyn.
+I am **Yilin Liu (刘奕麟)**, also known as Caralyn, a final-year B.Sc. student in Data Science and Big Data Technology at [HKUST(GZ)](https://www.hkust-gz.edu.cn/), expecting to graduate in June 2027. I have been on the Dean's List for three semesters. In Fall 2025, I attended UC Berkeley through the Berkeley Global Access Program, earning a **3.914/4.000 GPA** and studying computer architecture and systems programming.
 
-I am a final-year undergraduate student at <a href='https://www.hkust-gz.edu.cn/'>HKUST(GZ)</a> majoring in Data Science and Big Data Technology, and was a Visiting Student at UC Berkeley through the Global Access Program in Fall 2025.
+My research interests center on **efficient AI systems**: LLM inference and serving, low-precision quantization, and GPU-aware system–algorithm co-design. I am interested in how numerical methods and hardware execution constraints jointly shape practical ML systems.
 
-My research focuses on **efficient AI systems**, especially efficient Large Language Model inference, low-precision computation, and system--algorithm co-design. I am interested in improving LLM efficiency across the stack, from model compression and quantization algorithms to GPU-aware execution and practical deployment systems.
+With [Prof. Zeyi Wen](https://zeyiwen.github.io/), I study accuracy–execution trade-offs in low-bit KV-cache quantization, contributing algorithms and experiments in collaboration with GPU kernel and serving-system researchers. My ongoing final-year project explores how to evaluate AI agents on quantization kernel development tasks.
 
-Currently, under the guidance of <a href='https://zeyiwen.github.io'>Prof. Zeyi Wen</a>, I work on efficient LLM inference and low-bit KV-cache quantization, studying how quantization algorithms and hardware execution paths can be jointly optimized for better accuracy, memory efficiency, and runtime performance.
+Earlier, I worked on **AgenticMath**, a multi-agent mathematical data synthesis project, with [Prof. Jiaheng Wei](https://sites.google.com/ucsc.edu/jiahengwei). I also research reliable on-device agents and real-device evaluation with collaborators at MBZUAI, continuing work begun during UGRIP 2026.
 
-Previously, under the guidance of <a href='https://sites.google.com/ucsc.edu/jiahengwei'>Prof. Jiaheng Wei</a>, I worked on agentic data synthesis for mathematical reasoning, exploring how multi-agent frameworks can generate high-quality training data with substantially fewer samples. This experience motivated my broader interest in efficient AI from both data and systems perspectives.
+I am preparing applications for **Fall 2027 research-oriented master's programs** in Computer Science, ECE, and related areas, with a focus on ML systems and efficient AI.
 
-I also explored smartphone-native agent systems through the ClawMobile project at MBZUAI UGRIP 2026, where I investigated token efficiency, reusable skills, and reliability challenges in real-world mobile agent execution.
-
-I am currently seeking research-oriented graduate opportunities for Fall 2027 in ML systems, efficient LLM inference, and related areas.
-
-For more details, please check my [CV](/cv/).
+[Research projects]({{ '/projects/' | relative_url }}) · [Publications]({{ '/publications/' | relative_url }}) · [CV]({{ '/cv/' | relative_url }}) · [Email](mailto:{{ site.data.socials.email }})

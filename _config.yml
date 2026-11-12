@@ -9,11 +9,12 @@ last_name: Liu
 contact_note: >
 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Yilin Liu - Efficient AI Systems, LLM Inference, Quantization, and GPU Systems Research.
-footer_text: >
-    Copyright &copy; 2026 Yilin Liu.
+  Yilin Liu is a final-year undergraduate at HKUST(GZ) researching efficient LLM inference,
+  hardware-aware quantization, and AI agents for systems development and evaluation.
+footer_text:
 keywords: efficient-ai-systems, llm-inference, machine-learning-systems, quantization, kv-cache, gpu-systems # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+timezone: Asia/Shanghai
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://yilin-610-c.github.io # the base hostname & protocol for your site
@@ -45,7 +46,7 @@ repo_trophies:
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: true
 socials_in_search: true
 posts_in_search: false
@@ -165,6 +166,10 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
+  - assets/cv/
+  - _posts/
+  - _books/
+  - _pages/dropdown.md
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
@@ -283,10 +288,10 @@ scholar:
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
 enable_publication_badges:
-  altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
-  dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
-  google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
-  inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
+  altmetric: false # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
+  dimensions: false # Dimensions badge (Customization options: https://badge.dimensions.ai/)
+  google_scholar: false # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
+  inspirehep: false # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
@@ -617,9 +622,8 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
+# The public HTML CV uses _data/cv.yml as its single source.
+jekyll_get_json: []
 
 jsonresume:
   - basics

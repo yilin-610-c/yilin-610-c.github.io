@@ -1,26 +1,30 @@
 ---
 layout: page
-title: Efficient LLM Inference via Tensor-Friendly KV Cache Quantization
-description: System-algorithm co-design for low-precision autoregressive decoding.
+title: Hardware-Aware KV-Cache Quantization for Efficient LLM Serving
+description: Studying how low-bit representations and GPU execution constraints affect quantization accuracy and serving efficiency.
 importance: 1
 category: research
+status: Ongoing research
 ---
 
-## Overview
+**HKUST(GZ) · May 2026–Present**
 
-This project investigates efficient Large Language Model inference under memory and computation constraints, with a focus on KV cache optimization for autoregressive decoding.
+Supervisor: [Prof. Zeyi Wen](https://zeyiwen.github.io/)
 
-The key idea is to design quantization methods and execution paths that better match modern GPU low-precision hardware, reducing memory movement while preserving model quality. The work emphasizes system-algorithm co-design without disclosing unpublished experimental results.
+## Research question
 
-## Research Focus
+How can low-bit KV-cache quantization reduce the memory cost of LLM serving while preserving accuracy and fitting GPU execution constraints? This work examines the relationship between numerical representations, quantization error, and hardware-aware attention execution.
 
-- Low-bit KV cache representation
-- Autoregressive decoding efficiency
-- Tensor Core friendly attention computation
-- Quantization accuracy and scale selection
-- GPU-aware inference optimization
-- System-algorithm co-design
+## My contributions
 
-## Goal
+- Investigating quantization error, activation distributions, and accuracy–execution trade-offs.
+- Developing and evaluating algorithmic approaches to low-bit quantization, including calibration and scale selection.
+- Implementing experiments, numerical diagnostics, and ablation studies; contributing literature analysis, research figures, and writing.
 
-Bridge algorithm-level compression techniques and system-level GPU execution to accelerate practical LLM serving.
+My role centers on algorithms and experiments. I collaborate with teammates responsible for GPU kernels, serving-runtime integration, and system benchmarking.
+
+## Status
+
+Ongoing collaborative research. This overview describes the research direction; technical artifacts and experimental results are not currently public.
+
+[All research projects]({{ '/projects/' | relative_url }})

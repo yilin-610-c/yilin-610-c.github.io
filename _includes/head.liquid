@@ -82,6 +82,13 @@
   <script>
     initTheme();
   </script>
+{% else %}
+  <script>
+    // Shared table and search scripts also need a theme when the toggle is disabled.
+    function determineComputedTheme() {
+      return 'light';
+    }
+  </script>
 {% endif %}
 
 {% if page.map %}

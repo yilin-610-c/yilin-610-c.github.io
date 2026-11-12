@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-12-31 15:59:00-0400
+date: 2025-12-31
 inline: true
 related_posts: false
 ---
 
-Back from an enriching semester at UC Berkeley! I’m proud to have achieved a 3.91 GPA and am excited to apply the knowledge and insights I gained to my future research.
+Completed my Fall 2025 visiting semester at UC Berkeley through the Berkeley Global Access Program, with a **3.914/4.000 GPA**.

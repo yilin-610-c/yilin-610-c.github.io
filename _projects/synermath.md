@@ -1,28 +1,30 @@
 ---
 layout: page
-title: SynerMath: Multi-Agent Synthesis for Mathematical Reasoning
-description: Data-centric AI for efficient LLM reasoning.
-importance: 3
+title: "AgenticMath: Multi-Agent Mathematical Data Synthesis"
+description: Engineering and evaluating a multi-agent pipeline for compact mathematical reasoning datasets.
+importance: 4
 category: research
+status: Completed · DATA-FM Workshop at ICLR 2026
 ---
 
-## Overview
+**HKUST(GZ) · May 2025–May 2026**
 
-SynerMath explores multi-agent approaches for synthesizing high-quality mathematical reasoning data for Large Language Models.
+Supervisor: [Prof. Jiaheng Wei](https://sites.google.com/ucsc.edu/jiahengwei)
 
-The project investigates how agent collaboration can improve the quality, diversity, and efficiency of reasoning data generation.
+## Research question
 
-[Paper](https://arxiv.org/abs/2510.19361)
+Can a relatively small, carefully constructed synthetic dataset improve mathematical reasoning in LLMs? AgenticMath studies how agents can collaborate on seed selection, question reformulation, answer refinement, and quality evaluation to produce useful training examples.
 
-## Research Focus
+## My contributions
 
-- Multi-agent data synthesis
-- Mathematical reasoning
-- Data-centric LLM improvement
-- Data quality and efficiency
-- Pipeline design
-- Evaluation of generated reasoning data
+- Reviewing literature on mathematical reasoning data synthesis.
+- Engineering the multi-agent data-generation pipeline across its four stages.
+- Fine-tuning 3B–8B LLMs and conducting in-domain and out-of-domain evaluations.
 
-## Contribution
+## Outcomes
 
-Contributed to literature review, pipeline design, and empirical evaluation of generated reasoning data.
+The collaborative study found that models trained on **30–60K synthesized examples** achieved competitive reasoning performance against baselines trained on much larger datasets, on the evaluated benchmarks.
+
+**AgenticMath: Enhancing LLM Reasoning via Agentic-based Math Data Generation** was accepted at the **DATA-FM Workshop at ICLR 2026**.
+
+[Workshop paper](https://openreview.net/forum?id=wrOXg95VoF) · [arXiv preprint](https://arxiv.org/abs/2510.19361) · [All research projects]({{ '/projects/' | relative_url }})

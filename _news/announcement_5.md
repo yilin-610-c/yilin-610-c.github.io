@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-06-26 08:00:00-0400
+date: 2026-06-26
 inline: true
 related_posts: false
 ---
 
-Received the Best Project Award at MBZUAI Undergraduate Research Internship Program (UGRIP) 2026 for work on efficient and reliable mobile agent systems.
+Our MBZUAI UGRIP 2026 project received the **Best Project Award**, one of three awarded projects among 22, for work on efficient and reliable on-device agents.

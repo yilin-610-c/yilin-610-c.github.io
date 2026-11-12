@@ -3,71 +3,83 @@
   contents:
     - name: Full Name
       value: Yilin Liu
+    - name: Email
+      value: '<a href="mailto:yliu859@connect.hkust-gz.edu.cn">yliu859@connect.hkust-gz.edu.cn</a>'
     - name: Research Interests
-      value: Efficient AI Systems, LLM Inference, Quantization, GPU Systems
+      value: Efficient LLM inference and serving; low-precision quantization; GPU-aware system–algorithm co-design; AI agents for systems development and evaluation.
 
 - title: Education
   type: time_table
   contents:
     - title: B.Sc. in Data Science and Big Data Technology
       institution: The Hong Kong University of Science and Technology (Guangzhou)
-      year: 2023 - 2027 (Expected)
+      year: 2023–2027
       description:
-        - GPA: 3.692/4.300; Dean's List for three semesters.
-        - Relevant coursework: Machine Learning, Deep Learning, Reinforcement Learning, Optimization.
-    - title: Visiting Student
+        - September 2023–June 2027 (expected); final-year undergraduate student.
+        - Dean's List for three semesters.
+    - title: Visiting Student, Berkeley Global Access Program
       institution: University of California, Berkeley
-      year: 2025
+      year: Fall 2025
       description:
-        - Berkeley Global Access Program; GPA: 3.910/4.000.
-        - Relevant coursework: Computer Architecture, Agentic AI, Data Mining.
+        - "<strong>GPA: 3.914/4.000.</strong>"
+        - Studies in Computer Architecture and Systems Programming.
 
 - title: Research Experience
   type: time_table
   contents:
-    - title: System--Algorithm Co-design for Efficient LLM Quantization
-      institution: HKUST(GZ), Supervisor: Prof. Zeyi Wen
-      year: 2026 - Present
+    - title: Hardware-Aware KV-Cache Quantization for Efficient LLM Serving
+      institution: HKUST(GZ)
+      year: 2026–Present
       description:
-        - Investigating low-bit KV-cache quantization and efficient autoregressive decoding.
-        - Studying accuracy, memory efficiency, and GPU-aware execution trade-offs.
-    - title: ClawMobile: Efficient and Reliable Smartphone-Native Agent Systems
-      institution: MBZUAI UGRIP 2026; Supervisors: Prof. Chun Jason Xue and Prof. Youcheng Sun
-      year: 2026 - Present
+        - "May 2026–Present; supervisor: Prof. Zeyi Wen."
+        - Investigating quantization error, activation distributions, and accuracy–execution trade-offs in low-bit KV caches.
+        - Developing and evaluating quantization algorithms, calibration approaches, and scale selection through numerical diagnostics and ablation studies.
+        - Contributing literature analysis, figures, and writing; collaborating with teammates responsible for GPU kernels, serving integration, and system benchmarking.
+    - title: Reliable On-Device AI Agents and Real-World Evaluation
+      institution: MBZUAI Undergraduate Research Internship Program (UGRIP 2026)
+      year: 2026–Present
       description:
-        - Exploring token-efficient mobile agents, reusable skills, and reliable execution.
-        - Received the MBZUAI UGRIP 2026 Best Project Award.
-    - title: SynerMath: Multi-Agent Synthesis of High-Quality Mathematical Data
-      institution: HKUST(GZ), Supervisor: Prof. Jiaheng Wei
-      year: 2025 - Apr. 2026
+        - "June 2026–Present; supervisors: Prof. Chun Jason Xue and Prof. Youcheng Sun. Continued collaboration after the summer internship."
+        - Exploring demonstration-to-skill workflows and token-efficient execution; prototyping a cross-app personal knowledge base in Python and Android.
+        - Deploying and testing cross-session memory on real devices; debugging benchmark setup, Android automation, memory integration, and result verification.
+        - Contributing prototyping and evaluation reliability within the team's broader benchmark effort.
+    - title: "AgenticMath: Multi-Agent Mathematical Data Synthesis"
+      institution: HKUST(GZ)
+      year: 2025–2026
       description:
-        - Developed multi-agent data synthesis pipelines for efficient LLM reasoning.
-        - Workshop version accepted at DATA-FM @ ICLR 2026.
+        - "May 2025–May 2026; supervisor: Prof. Jiaheng Wei."
+        - Reviewed mathematical data synthesis methods and engineered a multi-agent pipeline for seed selection, question reformulation, answer refinement, and quality evaluation.
+        - Fine-tuned 3B–8B LLMs and conducted in-domain and out-of-domain evaluations.
+        - The collaborative study demonstrated competitive reasoning performance using 30–60K synthesized examples on the evaluated benchmarks.
+
+- title: Final-Year Project
+  type: time_table
+  contents:
+    - title: Benchmarking AI Agents for Quantization Kernel Development
+      institution: HKUST(GZ)
+      year: In progress
+      description:
+        - Investigating how to systematically evaluate coding agents on quantization-related GPU kernel tasks.
+        - Potential evaluation dimensions include functional correctness, numerical accuracy, performance, robustness, and reproducibility.
+        - Scope and methodology are under development; these are research objectives, with no release or results reported.
+
+- title: Publications
+  type: list
+  contents:
+    - 'Xianyang Liu, <strong>Yilin Liu</strong>, Shuai Wang, Hao Cheng, Andrew Estornell, Yuzhi Zhao, Jun Shu, and Jiaheng Wei. <a href="https://openreview.net/forum?id=wrOXg95VoF">AgenticMath: Enhancing LLM Reasoning via Agentic-based Math Data Generation</a>. <strong>Accepted at the DATA-FM Workshop at ICLR 2026.</strong> <a href="https://arxiv.org/abs/2510.19361">arXiv preprint</a>.'
 
 - title: Honors and Awards
   type: time_table
   contents:
     - year: 2026
       items:
-        - MBZUAI UGRIP 2026 Best Project Award
-        - INFH-Lizhi Innovative Talent Scholarship
-        - Ascend AI Innovation Competition Outstanding Award
+        - "<strong>Best Project Award</strong>, MBZUAI UGRIP 2026 — one of three awarded projects among 22 (June)."
+        - "<strong>2025 INFH–Lizhi Innovative Talent Scholarship</strong> — one of 10 undergraduates selected annually; awarded March 2026."
+        - "<strong>Outstanding Award</strong>, Ascend AI Innovation Competition, Operator Challenge, HKUST(GZ) Special Session (June)."
     - year: 2025
       items:
-        - Blue Bridge Cup National Software and IT Talent Competition Second Prize
+        - Second Prize, Blue Bridge Cup National Software and IT Talent Competition, Guangdong Division.
     - year: 2024
       items:
-        - iGEM Gold Medal and Best New Basic Part Nomination
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Efficient AI Systems
-      items:
-        - LLM inference and serving
-        - Low-precision computation
-        - GPU-aware optimization
-    - title: AI Agents
-      items:
-        - Mobile agents
-        - Agentic data synthesis
+        - "<strong>iGEM Gold Medal and Best New Basic Part Nomination.</strong>"
+        - Second Prize, 3rd Electrical & Electronic Engineering Innovation Competition.
