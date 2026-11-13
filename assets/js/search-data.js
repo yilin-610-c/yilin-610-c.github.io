@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-blog",
+          title: "blog",
+          description: "Notes on research, learning, and the people along the way.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "Public academic CV · Updated November 2026",
@@ -30,7 +37,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-started-my-visiting-semester-at-uc-berkeley-through-the-global-access-program-go-bears",
+        },{id: "post-beyond-the-screen-my-visit-to-mbzuai",
+        
+          title: "Beyond the Screen: My Visit to MBZUAI",
+        
+        description: "Meeting my remote research collaborators in person, and getting to know Abu Dhabi.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/mbzuai-visit/";
+          
+        },
+      },{id: "post-learning-to-enjoy-presentations",
+        
+          title: "Learning to Enjoy Presentations",
+        
+        description: "Four presentations in a reinforcement learning course helped me become a little more comfortable speaking.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/learning-to-enjoy-presentations/";
+          
+        },
+      },{id: "news-started-my-visiting-semester-at-uc-berkeley-through-the-global-access-program-go-bears",
           title: 'Started my visiting semester at UC Berkeley through the Global Access Program. Go...',
           description: "",
           section: "News",},{id: "news-agenticmath-preprint-is-available-on-arxiv",
