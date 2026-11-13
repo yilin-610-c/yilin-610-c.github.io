@@ -495,3 +495,39 @@ Our most active contributors are welcome to join the maintainers team. If you ar
 The theme is available as open source under the terms of the [MIT License](https://github.com/alshedivat/al-folio/blob/main/LICENSE).
 
 Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](https://liabogoev.com) and under the MIT license). Since then, it got a full re-write of the styles and many additional cool features.
+
+## Personal blog maintenance
+
+The public blog uses `_pages/blog.md` and the posts directly in `_posts/`.
+The 31 upstream demo articles are retained in `_template_posts/`, which is excluded
+in `_config.yml`; do not move them back into `_posts/` when publishing personal writing.
+
+For retrospective articles, `date` and the filename record when the article was
+created. `experience_month: "YYYY-MM"` records the confirmed month of the experience.
+The blog, homepage preview, article header, and archives show only that experience
+month. Feed timestamps still describe the article's creation, not an event day.
+No exact activity dates have been inferred for the two initial posts.
+
+Photographs are optional: no image markup is rendered until `cover` is assigned.
+The original images were visible in the conversation but were not available as
+local files during this update. Once available, add optimized photographs at:
+
+- `assets/img/blog/mbzuai-visit-2026.jpg`: the approved campus group photograph.
+- `assets/img/blog/dsaa3053-presentation-award-2026.jpg`: a tight, perspective-corrected
+  crop of Yilin Liu's certificate, preserving all certificate content and excluding
+  the other student's certificate.
+
+Then add these front-matter fields to the corresponding post (example for MBZUAI):
+
+```yaml
+cover: assets/img/blog/mbzuai-visit-2026.jpg
+cover_alt: "UGRIP participants gathered outside an MBZUAI campus building."
+cover_caption: "Visiting MBZUAI with fellow UGRIP participants, October 2026."
+```
+
+For the certificate, use descriptive alt text such as "Yilin Liu's DSAA3053 Best
+Project Presentation Award certificate, April 2026." The same `cover` supplies the
+optional blog thumbnail and the responsive article image. Keep the original files
+outside the published repository and optimize the public copies; the existing
+ImageMagick build generates responsive image variants. The image styles preserve
+the full photograph or certificate rather than cropping its contents in the browser.

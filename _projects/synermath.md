@@ -7,23 +7,21 @@ category: research
 status: Completed · DATA-FM Workshop at ICLR 2026
 ---
 
-**HKUST(GZ) · May 2025–May 2026**
+**HKUST(GZ) · May 2025–May 2026 · Completed**
 
 Supervisor: [Prof. Jiaheng Wei](https://sites.google.com/ucsc.edu/jiahengwei)
 
-## Research question
+Can a relatively small, carefully constructed synthetic dataset improve mathematical reasoning in LLMs? AgenticMath explores this question through a pipeline in which agents collaborate to produce training examples.
 
-Can a relatively small, carefully constructed synthetic dataset improve mathematical reasoning in LLMs? AgenticMath studies how agents can collaborate on seed selection, question reformulation, answer refinement, and quality evaluation to produce useful training examples.
+## Building and evaluating the pipeline
 
-## My contributions
+The pipeline has four stages: seed selection, question reformulation, answer refinement, and quality evaluation. I reviewed related work on mathematical reasoning data synthesis and helped engineer the multi-agent data-generation pipeline across these stages.
 
-- Reviewing literature on mathematical reasoning data synthesis.
-- Engineering the multi-agent data-generation pipeline across its four stages.
-- Fine-tuning 3B–8B LLMs and conducting in-domain and out-of-domain evaluations.
+To evaluate the resulting data, I fine-tuned 3B–8B LLMs and conducted in-domain and out-of-domain evaluations. These experiments examine both performance on the target distribution and how well the learned reasoning transfers beyond it.
 
-## Outcomes
+## What the study found
 
-The collaborative study found that models trained on **30–60K synthesized examples** achieved competitive reasoning performance against baselines trained on much larger datasets, on the evaluated benchmarks.
+In the collaborative study, models trained on **30–60K synthesized examples** achieved competitive reasoning performance against baselines trained on much larger datasets, on the evaluated benchmarks.
 
 **AgenticMath: Enhancing LLM Reasoning via Agentic-based Math Data Generation** was accepted at the **DATA-FM Workshop at ICLR 2026**.
 

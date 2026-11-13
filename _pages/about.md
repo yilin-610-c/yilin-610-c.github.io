@@ -15,17 +15,19 @@ announcements:
   scrollable: false
   limit: 3
 latest_posts:
-  enabled: false
+  enabled: true
+  scrollable: false
+  limit: 2
 ---
 
-I am **Yilin Liu (刘奕麟)**, also known as Caralyn, a final-year B.Sc. student in Data Science and Big Data Technology at [HKUST(GZ)](https://www.hkust-gz.edu.cn/), expecting to graduate in June 2027. I have been on the Dean's List for three semesters. In Fall 2025, I attended UC Berkeley through the Berkeley Global Access Program, earning a **3.914/4.000 GPA** and studying computer architecture and systems programming.
+I am **Yilin Liu (刘奕麟)**, also known as Caralyn, a final-year undergraduate studying Data Science and Big Data Technology at [HKUST(GZ)](https://www.hkust-gz.edu.cn/).
 
-My research interests center on **efficient AI systems**: LLM inference and serving, low-precision quantization, and GPU-aware system–algorithm co-design. I am interested in how numerical methods and hardware execution constraints jointly shape practical ML systems.
+I am interested in **efficient AI systems**, especially the interaction between numerical algorithms, low-precision representations, and GPU execution. One question that motivates my work is why reducing KV-cache precision does not necessarily make LLM inference faster. Saving memory is only part of the problem: the representation also needs to preserve accuracy and work well with the hardware executing it.
 
-With [Prof. Zeyi Wen](https://zeyiwen.github.io/), I study accuracy–execution trade-offs in low-bit KV-cache quantization, contributing algorithms and experiments in collaboration with GPU kernel and serving-system researchers. My ongoing final-year project explores how to evaluate AI agents on quantization kernel development tasks.
+With [Prof. Zeyi Wen](https://zeyiwen.github.io/), I study these trade-offs through quantization algorithms and experiments, working with collaborators on GPU kernels and serving systems. My final-year project extends this interest to evaluating AI agents that develop quantization kernels.
 
-Earlier, I worked on **AgenticMath**, a multi-agent mathematical data synthesis project, with [Prof. Jiaheng Wei](https://sites.google.com/ucsc.edu/jiahengwei). I also research reliable on-device agents and real-device evaluation with collaborators at MBZUAI, continuing work begun during UGRIP 2026.
+I also work with MBZUAI collaborators on reliable on-device agents, continuing research begun during UGRIP 2026. Previously, I helped build and evaluate **AgenticMath**, a multi-agent pipeline for generating mathematical reasoning data, with [Prof. Jiaheng Wei](https://sites.google.com/ucsc.edu/jiahengwei).
 
-I am preparing applications for **Fall 2027 research-oriented master's programs** in Computer Science, ECE, and related areas, with a focus on ML systems and efficient AI.
+I am preparing applications for **Fall 2027 research-oriented master's programs** in CS, ECE, and related areas. Here I share my research and occasional reflections on the people and experiences around it.
 
 [Research projects]({{ '/projects/' | relative_url }}) · [Publications]({{ '/publications/' | relative_url }}) · [CV]({{ '/cv/' | relative_url }}) · [Email](mailto:{{ site.data.socials.email }})

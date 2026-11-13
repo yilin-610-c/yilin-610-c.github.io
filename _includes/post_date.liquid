@@ -1,0 +1,6 @@
+{%- if include.post.experience_month -%}
+  {%- assign month_date = include.post.experience_month | append: '-01' -%}
+  <time datetime="{{ include.post.experience_month }}">{{ month_date | date: '%B %Y' }}</time>
+{%- else -%}
+  <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: '%B %d, %Y' }}</time>
+{%- endif -%}

@@ -7,24 +7,18 @@ category: research
 status: Ongoing research
 ---
 
-**HKUST(GZ) · May 2026–Present**
+**HKUST(GZ) · May 2026–Present · Ongoing research**
 
 Supervisor: [Prof. Zeyi Wen](https://zeyiwen.github.io/)
 
-## Research question
+## From fewer bits to faster inference
 
-How can low-bit KV-cache quantization reduce the memory cost of LLM serving while preserving accuracy and fitting GPU execution constraints? This work examines the relationship between numerical representations, quantization error, and hardware-aware attention execution.
+Low-bit KV-cache representations can reduce the memory required for LLM serving, but a smaller representation does not automatically lead to faster GPU execution. The numerical choices that preserve model accuracy also need to fit the computation and data access patterns of attention kernels. I study this connection between quantization accuracy and execution efficiency.
 
-## My contributions
+## Algorithms and experiments
 
-- Investigating quantization error, activation distributions, and accuracy–execution trade-offs.
-- Developing and evaluating algorithmic approaches to low-bit quantization, including calibration and scale selection.
-- Implementing experiments, numerical diagnostics, and ablation studies; contributing literature analysis, research figures, and writing.
+My work focuses on understanding quantization error and activation distributions, developing low-bit quantization approaches, and evaluating calibration and scale selection. Numerical diagnostics and ablation studies help examine how these choices affect accuracy and their suitability for efficient execution.
 
-My role centers on algorithms and experiments. I collaborate with teammates responsible for GPU kernels, serving-runtime integration, and system benchmarking.
-
-## Status
-
-Ongoing collaborative research. This overview describes the research direction; technical artifacts and experimental results are not currently public.
+I contribute experiments, literature analysis, research figures, and writing. I work with teammates on GPU kernels, serving-runtime integration, and system benchmarking, connecting the algorithmic questions to their implementation in a serving system.
 
 [All research projects]({{ '/projects/' | relative_url }})
